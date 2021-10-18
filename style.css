@@ -1,10 +1,57 @@
-.paraphraph{
-    font-size: 1.5em
+.paraphraph {
+  font-size: 1.5em;
 }
-.city{
- width: 420px;
- height: 35px;
- 
- border: 2px solid rgb(219, 216, 216) ;
- border-radius: 3px; 
+.city {
+  width: 420px;
+  height: 35px;
+
+  border: 2px solid rgb(219, 216, 216);
+  border-radius: 3px;
 }
+
+.cardDiv img {
+  height: 300px;
+}
+
+.cardBody {
+  position: relative;
+}
+
+.font-awesome {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(212, 209, 209);
+  top: -20%;
+  left: 50%;
+  transform: translateX(-40%);
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+}
+
+i {
+  font-size: 30px;
+  color: black;
+}
+.city-name {
+  font-size: 1.4em;
+  color: rgb(119, 117, 117);
+}
+.weather{
+    color: rgb(119, 117, 117);
+    font-size: 1.2em;
+}
+.degree{
+    color: rgb(119, 117, 117);
+    font-size:3em;
+    
+}
+
+/*
+clearday : <i class="far fa-sun"></i>
+night: <i class="fas fa-moon"></i>
+cloudday: <i class="fas fa-cloud"></i>
+cloudnight: <i class="fas fa-cloud-moon"></i>
+*/
