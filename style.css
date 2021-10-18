@@ -1,0 +1,10 @@
+.paraphraph{
+    font-size: 1.5em
+}
+.city{
+ width: 420px;
+ height: 35px;
+ 
+ border: 2px solid rgb(219, 216, 216) ;
+ border-radius: 3px; 
+}
