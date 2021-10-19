@@ -21,7 +21,7 @@
   position: absolute;
   width: 70px;
   height: 70px;
-  background-color: rgb(212, 209, 209);
+  background-color: rgb(255, 255, 255);
   top: -20%;
   left: 50%;
   transform: translateX(-40%);
@@ -33,7 +33,7 @@
 
 i {
   font-size: 30px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .city-name {
   font-size: 1.4em;
